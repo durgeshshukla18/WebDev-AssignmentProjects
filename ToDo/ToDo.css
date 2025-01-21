@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .todo-app {
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .todo-app h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #todo-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #add-button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #add-button:hover {
+    background-color: #4cae4c;
+  }
+  
+  #todo-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .todo-item .task {
+    flex-grow: 1;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .todo-item.completed .task {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .complete-button {
+    background-color: #5bc0de;
+    color: white;
+  }
+  
+  .complete-button:hover {
+    background-color: #31b0d5;
+  }
+  
+  .delete-button {
+    background-color: #d9534f;
+  }  
